@@ -5,6 +5,7 @@ kutkevich.org. 3600 IN  NS ns4.dnsimple.com.
 kutkevich.org. 3600 IN  NS ns3.dnsimple.com.
 kutkevich.org. 3600 IN  NS ns2.dnsimple.com.
 kutkevich.org. 3600 IN  NS ns1.dnsimple.com.
+danil.kutkevich.org. 7200 IN  A 178.79.163.10
 _xmpp._tcp.kutkevich.org. 3600 IN  SRV 5 0 5269 chat.messagingengine.com.
 _xmpp-server._tcp.kutkevich.org. 3600 IN  SRV 5 0 5269 chat.messagingengine.com.
 _xmpp-client._tcp.kutkevich.org. 3600 IN  SRV 5 0 5222 chat.messagingengine.com.
@@ -16,7 +17,6 @@ g.kutkevich.org. 10800 IN  MX 5 alt1.aspmx.l.google.com.
 kutkevich.org. 10800 IN  MX 20 in2-smtp.messagingengine.com.
 kutkevich.org. 10800 IN  MX 10 in1-smtp.messagingengine.com.
 mail.kutkevich.org. 10800 IN  CNAME www.fastmail.fm.
-danil.kutkevich.org. 10800 IN  CNAME danil.divshot.io.
 yurij.kutkevich.org. 10800 IN  A 188.134.2.138
 www.kutkevich.org. 10800 IN  A 178.79.163.10
 tatyana.kutkevich.org. 10800 IN  A 188.134.8.88
