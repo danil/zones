@@ -5,6 +5,9 @@ kutkevich.org. 3600 IN  NS ns4.dnsimple.com.
 kutkevich.org. 3600 IN  NS ns3.dnsimple.com.
 kutkevich.org. 3600 IN  NS ns2.dnsimple.com.
 kutkevich.org. 3600 IN  NS ns1.dnsimple.com.
+static.kutkevich.org. 7200 IN  A 178.79.163.10
+sazhinet.kutkevich.org. 7200 IN  A 178.79.163.10
+ntp.kutkevich.org. 7200 IN  A 178.79.163.10
 danil.kutkevich.org. 7200 IN  A 178.79.163.10
 _xmpp._tcp.kutkevich.org. 3600 IN  SRV 5 0 5269 chat.messagingengine.com.
 _xmpp-server._tcp.kutkevich.org. 3600 IN  SRV 5 0 5269 chat.messagingengine.com.
