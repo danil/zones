@@ -5,6 +5,7 @@ sazhi.net. 3600 IN  NS ns4.dnsimple.com.
 sazhi.net. 3600 IN  NS ns3.dnsimple.com.
 sazhi.net. 3600 IN  NS ns2.dnsimple.com.
 sazhi.net. 3600 IN  NS ns1.dnsimple.com.
+staging.sazhi.net. 7200 IN  A 178.79.163.10
 www.sazhi.net. 7200 IN  A 178.79.163.10
 static.sazhi.net. 7200 IN  A 178.79.163.10
 sazhi.net. 7200 IN  A 178.79.163.10
