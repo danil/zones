@@ -1,6 +1,6 @@
 $ORIGIN kutkevich.org.
 $TTL 1h
-kutkevich.org. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1434244444 86400 7200 604800 300
+kutkevich.org. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1434619085 86400 7200 604800 300
 kutkevich.org. 3600 IN NS ns2.dnsimple.com.
 kutkevich.org. 3600 IN NS ns1.dnsimple.com.
 kutkevich.org. 3600 IN NS ns3.dnsimple.com.
@@ -34,4 +34,4 @@ gentoo.kutkevich.org. 7200 IN A 178.79.163.10
 h5a.kutkevich.org. 3600 IN A 178.79.163.10
 elpa.kutkevich.org. 3600 IN A 178.79.163.10
 syncthing.kutkevich.org. 3600 IN A 178.79.163.10
-s.kutkevich.org. 3600 IN A 178.79.163.10
+sync.kutkevich.org. 3600 IN A 178.79.163.10
