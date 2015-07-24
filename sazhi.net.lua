@@ -24,7 +24,10 @@ cname("www", _a)
 -- @to      = recipient (email address)
 -- @ttl     = cache TTL (default: user default TTL)
 -- forward(from, to, ttl)
--- Forward mailbox `jane.roe@example.com` to `john.doe@example.net`.
+-- Example: forward mailbox `jane.roe@example.com` to `john.doe@example.net`.
 -- forward("jane.roe", "john.doe@example.net")
+-- Example: Catch-all forward.
+-- Forward all unmatched mailboxes to alice@mailinator.com.
+-- forward("*", "john@example.org")
 forward("info", "leon_v80@mail.ru")
 forward("postmaster", "danil@kutkevich.org")
