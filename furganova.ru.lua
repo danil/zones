@@ -17,4 +17,4 @@ mx(_a, "mx.yandex.ru", 10) -- http://pdd.yandex.ru
 -- @alias   = alias (fqdn)
 -- @ttl     = TTL (default: user default TTL)
 -- cname(name, alias, ttl)
-cname("yamail-59b6d20599ff", "mail.yandex.ru")
+cname("yamail-5d199ea68e17", "mail.yandex.ru")
