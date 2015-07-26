@@ -11,10 +11,3 @@
 -- @ttl       = TTL (default: user default TTL)
 -- mx(name, exchanger, prio, ttl)
 mx(_a, "mx.yandex.ru", 10) -- http://pdd.yandex.ru
-
--- CNAME records <http://www.luadns.com/help.html#cname-record>
--- @name    = relative name
--- @alias   = alias (fqdn)
--- @ttl     = TTL (default: user default TTL)
--- cname(name, alias, ttl)
-cname("yamail-5d199ea68e17", "mail.yandex.ru")
