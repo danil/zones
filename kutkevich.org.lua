@@ -23,11 +23,6 @@ a(_a, "178.79.163.10")
 -- mx(name, exchanger, prio, ttl)
 mx(_a, "in1-smtp.messagingengine.com", 10)
 mx(_a, "in2-smtp.messagingengine.com", 20)
-mx(concat("g", _a), "alt1.aspmx.l.google.com", 5)
-mx(concat("g", _a), "alt2.aspmx.l.google.com", 5)
-mx(concat("g", _a), "aspmx.l.google.com", 1)
-mx(concat("g", _a), "aspmx2.googlemail.com", 10)
-mx(concat("g", _a), "aspmx3.googlemail.com", 10)
 
 -- CNAME records <http://www.luadns.com/help.html#cname-record>
 -- @name    = relative name
