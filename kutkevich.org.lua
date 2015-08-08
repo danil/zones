@@ -42,8 +42,8 @@ cname("ntp", _a)
 cname("proxy", _a)
 cname("staging", _a)
 cname("static", _a)
+cname("stats", _a)
 cname("sync", _a)
-cname("syncthing", _a)
 cname("www", _a)
 
 -- SRV records <http://www.luadns.com/help.html#srv-record>
