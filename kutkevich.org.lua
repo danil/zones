@@ -10,6 +10,7 @@
 -- @ttl   = TTL (default: user default TTL)
 -- a(name, ip, ttl)
 a("lisa", "188.134.8.88")
+a("medapp", "87.249.45.152")
 a("minecraft", "23.235.235.55")
 a("tatyana", "188.134.8.88")
 a("yurij", "188.134.2.138")
