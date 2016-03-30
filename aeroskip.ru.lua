@@ -15,3 +15,5 @@
 -- Forward all unmatched mailboxes to alice@mailinator.com.
 -- forward("*", "john@example.org")
 forward("postmaster", "danil@kutkevich.org")
+-- forward("mail", "lera@furganova.ru")
+forward("mail", "danil@kutkevich.org")
