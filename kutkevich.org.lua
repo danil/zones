@@ -63,3 +63,16 @@ srv("_xmpp._tcp", "xmpp.kutkevich.org", 5269, 5)
 -- srv("_xmpp-client._tcp", "chat.messagingengine.com", 5222, 5)
 -- srv("_xmpp-server._tcp", "chat.messagingengine.com", 5269, 5)
 -- srv("_xmpp._tcp", "chat.messagingengine.com", 5269, 5)
+
+-- mg.kutkevich.org
+-- mailgun.com
+-- http://www.luadns.com/help.html#txt-record
+-- @name    = relative name
+-- @text    = text
+-- @ttl     = TTL (default: user default TTL)
+-- txt(name, text, ttl)
+txt("mg." .. _a, "v=spf1 include:mailgun.org ~all")
+txt("krs._domainkey.mg." .. _a, "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnEOlNUyhX2ySvKCxdaMNKizz8ayHTwRxLbTBVpoB1ugCv9FvvkxnHvgsrO3woyFxCnQ3WPO+sWvwc6Q5lmzzBWcHNbzwJhyjJQmvKSgi1pA+RBDcjjEg9xBlDkIfYUFlmmZL5HHjUuTPxRAQNkp5BGuJxs/xAID80/AR6oPJakQIDAQAB")
+cname("email.mg." .. _a, "mailgun.org")
+mx("mg." .. _a, "mxa.mailgun.org", 10)
+mx("mg." .. _a, "mxb.mailgun.org", 10)
