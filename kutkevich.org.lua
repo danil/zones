@@ -39,6 +39,7 @@ cname("mail", "www.fastmail.fm")
 cname("minecraft", _a)
 cname("netdata.h2", _a)
 cname("ntp", _a)
+cname("ping", _a) -- pong
 cname("proxy", _a)
 cname("staging", _a)
 cname("static", _a)
