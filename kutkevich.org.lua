@@ -43,7 +43,7 @@ cname("ping", _a) -- pong
 cname("proxy", _a)
 cname("staging", _a)
 cname("static", _a)
-cname("stats", _a)
+cname("status", _a)
 cname("sync", _a) -- syncthing
 cname("www", _a)
 
