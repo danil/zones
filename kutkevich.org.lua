@@ -74,3 +74,9 @@ txt("krs._domainkey.mg." .. _a, "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQ
 cname("email.mg." .. _a, "mailgun.org")
 mx("mg." .. _a, "mxa.mailgun.org", 10)
 mx("mg." .. _a, "mxb.mailgun.org", 10)
+-- mx.kutkevich.org
+txt("mx." .. _a, "v=spf1 include:mailgun.org ~all")
+txt("mailo._domainkey.mx.kutkevich.org" .. _a, "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbFpXhxTnDs9qWOWJEa5XCtjoAjvaEwxEzA9r5IrHOyEFUmqoSl8bIfMCdddRzJdC6ttN+8EDm/yAYImhKwv85xXYmhHQ4pRpXroCufQo41pg9MkvIaHJA9fWPonowsv0F0lPaw0w4h6THttsccgnSPp9J1R4WFJn5YjeEjZ6tAQIDAQAB")
+cname("email.mx." .. _a, "mailgun.org")
+mx("mx." .. _a, "mxa.mailgun.org", 10)
+mx("mx." .. _a, "mxb.mailgun.org", 10)
