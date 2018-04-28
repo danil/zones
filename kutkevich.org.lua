@@ -92,3 +92,5 @@ txt("krs._domainkey.mail.h10." .. _a, "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCB
 cname("email.mail.h10." .. _a, "mailgun.org")
 mx("mail.h10." .. _a, "mxa.mailgun.org", 10)
 mx("mail.h10." .. _a, "mxb.mailgun.org", 10)
+
+cname("yamail-d529bd87934b." .. _a, "mail.yandex.ru")
