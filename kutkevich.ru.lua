@@ -1,8 +1,8 @@
--- File: kutkevich.org.lua
--- Zone: kutkevich.org
+-- File: kutkevich.ru.lua
+-- Zone: kutkevich.ru
 -- SOA record is automatically generated
 -- Variable _a is replaced with zone name
--- _a = "kutkevich.org"
+-- _a = "kutkevich.ru"
 
 -- A records <http://www.luadns.com/help.html#a-record>
 -- @name  = relative name
