@@ -20,8 +20,13 @@ a(_a, "178.79.163.10")
 -- @prio      = priority (default: 0)
 -- @ttl       = TTL (default: user default TTL)
 -- mx(name, exchanger, prio, ttl)
-mx(_a, "in1-smtp.messagingengine.com", 10)
-mx(_a, "in2-smtp.messagingengine.com", 20)
+mx(_a, "aspmx.l.google.com", 1)
+mx(_a, "alt1.aspmx.l.google.com", 5)
+mx(_a, "alt2.aspmx.l.google.com", 5)
+mx(_a, "alt3.aspmx.l.google.com", 10)
+mx(_a, "alt4.aspmx.l.google.com", 10)
+-- mx(_a, "in1-smtp.messagingengine.com", 10)
+-- mx(_a, "in2-smtp.messagingengine.com", 20)
 
 -- CNAME records <http://www.luadns.com/help.html#cname-record>
 -- @name    = relative name
