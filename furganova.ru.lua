@@ -4,6 +4,13 @@
 -- Variable _a is replaced with zone name
 -- _a = "furganova.ru"
 
+-- -- A records <http://www.luadns.com/help.html#a-record>
+-- -- @name  = relative name
+-- -- @ip    = IPv4 address
+-- -- @ttl   = TTL (default: user default TTL)
+-- -- a(name, ip, ttl)
+-- a(_a, "178.79.163.10")
+
 -- MX records <http://www.luadns.com/help.html#mx-record>
 -- @name      = relative name
 -- @exchanger = mail exchanger(fqdn)
