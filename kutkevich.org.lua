@@ -38,6 +38,7 @@ cname("elpa", _a)
 cname("ftp", _a)
 cname("gentoo", _a) -- used by portage mirror
 cname("git", _a)
+cname("h10", _a)
 cname("h2", _a)
 cname("h5a", _a)
 cname("mail", "www.fastmail.fm")
