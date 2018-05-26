@@ -20,7 +20,6 @@ cname("staging", _a)
 cname("www", _a)
 cname("email", "mailgun.org")
 
-
 -- -- FORWARD records <http://www.luadns.com/help.html#forward-record>
 -- -- @from    = mailbox name (without domain)
 -- -- @to      = recipient (email address)
