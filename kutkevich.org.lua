@@ -12,7 +12,7 @@
 a("lisa", "188.134.8.88")
 a("tatyana", "188.134.8.88")
 a("yurij", "188.134.2.138")
-a(_a, "178.79.163.10")
+a(_a, "139.162.142.225")
 
 -- MX records <http://www.luadns.com/help.html#mx-record>
 -- @name      = relative name
