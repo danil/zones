@@ -42,15 +42,12 @@ cname("gentoo", _a) -- used by portage mirror
 cname("git", _a)
 cname("h10", _a)
 cname("h2", _a)
-cname("h5a", _a)
 cname("mail", "www.fastmail.fm")
-cname("minecraft", _a)
 cname("monit-h2", _a)
 cname("netdata-h2", _a)
 cname("ntp", _a)
 cname("ping", _a) -- pong
 cname("proxy", _a)
-cname("staging", _a)
 cname("static", _a)
 cname("status", _a)
 cname("sync", _a) -- syncthing
