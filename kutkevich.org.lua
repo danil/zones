@@ -12,9 +12,11 @@
 a("lisa", "188.134.8.88")
 a("tatyana", "188.134.8.88")
 a("h1", "188.134.8.88")
-a("h20", "139.162.196.206")
 a("yurij", "188.134.2.138")
 a(_a, "178.79.163.10")
+
+a("h20", "139.162.196.206")
+a("sync-h20", "139.162.196.206") -- syncthing
 
 -- MX records <http://www.luadns.com/help.html#mx-record>
 -- @name      = relative name
@@ -56,6 +58,7 @@ cname("staging", _a)
 cname("static", _a)
 cname("status", _a)
 cname("sync", _a) -- syncthing
+cname("sync-h2", _a) -- syncthing
 cname("www", _a)
 
 -- SRV records <http://www.luadns.com/help.html#srv-record>
