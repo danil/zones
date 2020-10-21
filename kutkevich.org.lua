@@ -15,6 +15,9 @@ a("h1", "188.134.8.88")
 a("yurij", "188.134.2.138")
 a(_a, "178.79.163.10")
 
+-- h20.
+a("arch", "139.162.196.206")
+a("archlinux", "139.162.196.206")
 a("h20", "139.162.196.206")
 a("sync-h20", "139.162.196.206") -- syncthing
 
@@ -37,8 +40,6 @@ mx(_a, "alt4.aspmx.l.google.com", 10)
 -- @alias   = alias (fqdn)
 -- @ttl     = TTL (default: user default TTL)
 -- cname(name, alias, ttl)
-cname("arch", _a)
-cname("archlinux", _a)
 cname("danil", "danil.github.io")
 cname("elpa", _a)
 cname("ftp", _a)
