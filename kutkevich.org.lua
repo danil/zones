@@ -19,6 +19,7 @@ a(_a, "178.79.163.10")
 a("arch", "139.162.196.206")
 a("archlinux", "139.162.196.206")
 a("h20", "139.162.196.206")
+a("sync", "139.162.196.206") -- syncthing
 a("sync-h20", "139.162.196.206") -- syncthing
 
 -- MX records <http://www.luadns.com/help.html#mx-record>
@@ -58,7 +59,6 @@ cname("proxy", _a)
 cname("staging", _a)
 cname("static", _a)
 cname("status", _a)
-cname("sync", _a) -- syncthing
 cname("sync-h2", _a) -- syncthing
 cname("www", _a)
 
