@@ -21,6 +21,8 @@ a("arch-h20", "139.162.196.206")
 a("h20", "139.162.196.206")
 a("sync", "139.162.196.206") -- syncthing
 a("sync-h20", "139.162.196.206") -- syncthing
+a("ping-h20", "139.162.196.206") -- pong
+a("ping", "139.162.196.206") -- pong
 
 -- MX records <http://www.luadns.com/help.html#mx-record>
 -- @name      = relative name
@@ -54,7 +56,6 @@ cname("minecraft", _a)
 cname("monit-h2", _a)
 cname("netdata-h2", _a)
 cname("ntp", _a)
-cname("ping", _a) -- pong
 cname("proxy", _a)
 cname("staging", _a)
 cname("static", _a)
