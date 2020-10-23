@@ -23,6 +23,7 @@ a("sync", "139.162.196.206") -- syncthing
 a("sync-h20", "139.162.196.206") -- syncthing
 a("ping-h20", "139.162.196.206") -- pong
 a("ping", "139.162.196.206") -- pong
+a("git", "139.162.196.206")
 
 -- MX records <http://www.luadns.com/help.html#mx-record>
 -- @name      = relative name
@@ -47,7 +48,6 @@ cname("danil", "danil.github.io")
 cname("elpa", _a)
 cname("ftp", _a)
 cname("gentoo", _a) -- used by portage mirror
-cname("git", _a)
 cname("h10", _a)
 cname("h2", _a)
 cname("h5a", _a)
