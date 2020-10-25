@@ -15,15 +15,10 @@ a("h1", "188.134.8.88")
 a("yurij", "188.134.2.138")
 a(_a, "178.79.163.10")
 
--- h20.
-a("arch", "139.162.196.206")
-a("arch-h20", "139.162.196.206")
-a("h20", "139.162.196.206")
-a("sync", "139.162.196.206") -- syncthing
-a("sync-h20", "139.162.196.206") -- syncthing
-a("ping-h20", "139.162.196.206") -- pong
-a("ping", "139.162.196.206") -- pong
-a("git", "139.162.196.206")
+-- h2.
+a("h2", "139.162.196.206")
+a("ping-h2", "139.162.196.206") -- pong
+a("sync-h2", "139.162.196.206") -- syncthing
 
 -- MX records <http://www.luadns.com/help.html#mx-record>
 -- @name      = relative name
@@ -44,11 +39,17 @@ mx(_a, "alt4.aspmx.l.google.com", 10)
 -- @alias   = alias (fqdn)
 -- @ttl     = TTL (default: user default TTL)
 -- cname(name, alias, ttl)
+cname("arch", _a)
+cname("arch-h20", _a)
+cname("sync", _a) -- syncthing
+cname("sync-h20", _a) -- syncthing
+cname("ping-h20", _a) -- pong
+cname("ping", _a) -- pong
+cname("git", _a)
 cname("danil", "danil.github.io")
 cname("elpa", _a)
 cname("ftp", _a)
 cname("gentoo", _a) -- used by portage mirror
-cname("h10", _a)
 cname("h2", _a)
 cname("h5a", _a)
 cname("mail", "www.fastmail.fm")
@@ -60,7 +61,6 @@ cname("proxy", _a)
 cname("staging", _a)
 cname("static", _a)
 cname("status", _a)
-cname("sync-h2", _a) -- syncthing
 cname("www", _a)
 
 -- SRV records <http://www.luadns.com/help.html#srv-record>
