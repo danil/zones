@@ -20,18 +20,6 @@ a("h2", "139.162.196.206")
 a("ping-h2", "139.162.196.206") -- pong
 a("sync-h2", "139.162.196.206") -- syncthing
 
--- nixastic.com MX records <http://www.luadns.com/help.html#mx-record>
--- @name      = relative name
--- @exchanger = mail exchanger(fqdn)
--- @prio      = priority (default: 0)
--- @ttl       = TTL (default: user default TTL)
--- mx(name, exchanger, prio, ttl)
-mx("nixastic.com", "aspmx.l.google.com", 1)
-mx("nixastic.com", "alt1.aspmx.l.google.com", 5)
-mx("nixastic.com", "alt2.aspmx.l.google.com", 5)
-mx("nixastic.com", "alt3.aspmx.l.google.com", 10)
-mx("nixastic.com", "alt4.aspmx.l.google.com", 10)
-
 -- kutkevich.org MX records <http://www.luadns.com/help.html#mx-record>
 -- @name      = relative name
 -- @exchanger = mail exchanger(fqdn)
