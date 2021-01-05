@@ -41,26 +41,34 @@ mx(_a, "alt4.aspmx.l.google.com", 10)
 -- cname(name, alias, ttl)
 cname("arch", _a)
 cname("arch-h20", _a)
-cname("sync", _a) -- syncthing
-cname("sync-h20", _a) -- syncthing
-cname("ping-h20", _a) -- pong
-cname("ping", _a) -- pong
-cname("git", _a)
 cname("danil", "danil.github.io")
 cname("elpa", _a)
+cname("equalastic", _a)
 cname("ftp", _a)
 cname("gentoo", _a) -- used by portage mirror
+cname("git", _a)
+cname("go8583", _a) -- git repository
 cname("h20", _a)
 cname("h5a", _a)
+cname("logastic", _a) -- git repository
 cname("mail", "www.fastmail.fm")
 cname("minecraft", _a)
 cname("monit-h2", _a)
 cname("netdata-h2", _a)
 cname("ntp", _a)
+cname("ping", _a) -- pong
+cname("ping-h20", _a) -- pong
+cname("pingastic", _a) -- git repository
 cname("proxy", _a)
+cname("randuuid", _a) -- git repository
+cname("repostat", _a) -- git repository
+cname("sqlilog", _a) -- git repository
 cname("staging", _a)
 cname("static", _a)
 cname("status", _a)
+cname("sync", _a) -- syncthing
+cname("sync-h20", _a) -- syncthing
+cname("syncastic", _a) -- git repository
 cname("www", _a)
 
 -- SRV records <http://www.luadns.com/help.html#srv-record>
