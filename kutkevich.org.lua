@@ -4,6 +4,9 @@
 -- Variable _a is replaced with zone name
 -- _a = "kutkevich.org"
 
+-- FIXME: remove me.
+txt("codomatica.com", "google-site-verification=U6ADP071SpFYJQSM6jlYeiKuHhCnV2s4Trj7ZFC67mU")
+
 -- A records <http://www.luadns.com/help.html#a-record>
 -- @name  = relative name
 -- @ip    = IPv4 address
