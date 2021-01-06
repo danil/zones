@@ -6,7 +6,7 @@
 
 
 -- FIXME: remove me.
-txt("nixastic.xyz", "google-site-verification=JfCxf8tBHkqn-mXT-e52fi9_0wutupvQN51WjcYvox0")
+txt("nixastic.app", "google-site-verification=-F_dufgxyPFP4O8o_j-x4RcmTdvDprPxDvjy-Hca2zg")
 
 -- A records <http://www.luadns.com/help.html#a-record>
 -- @name  = relative name
