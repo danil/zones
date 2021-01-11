@@ -62,7 +62,7 @@ cname("pingastic", _a) -- git repository
 cname("proxy", _a)
 cname("randuuid", _a) -- git repository
 cname("repostat", _a) -- git repository
-cname("sqlilog", _a) -- git repository
+cname("sqltee", _a) -- git repository
 cname("staging", _a)
 cname("static", _a)
 cname("status", _a)
