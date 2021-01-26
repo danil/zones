@@ -4,9 +4,6 @@
 -- Variable _a is replaced with zone name
 -- _a = "kutkevich.org"
 
--- FIXME: remove me.
-txt(_a, "google-site-verification=Ak5ZcW5AEHnzUw1fFirUO-fuyHV4DEn8YejlEAGDoGY")
-
 -- A records <http://www.luadns.com/help.html#a-record>
 -- @name  = relative name
 -- @ip    = IPv4 address
@@ -119,3 +116,6 @@ txt("krs._domainkey.mail.h10." .. _a, "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCB
 cname("email.mail.h10." .. _a, "mailgun.org")
 mx("mail.h10." .. _a, "mxa.mailgun.org", 10)
 mx("mail.h10." .. _a, "mxb.mailgun.org", 10)
+
+-- FIXME: remove me.
+txt(_a, "google-site-verification=Ak5ZcW5AEHnzUw1fFirUO-fuyHV4DEn8YejlEAGDoGY")
