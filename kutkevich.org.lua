@@ -118,4 +118,4 @@ mx("mail.h10." .. _a, "mxa.mailgun.org", 10)
 mx("mail.h10." .. _a, "mxb.mailgun.org", 10)
 
 -- FIXME: remove me.
-txt(_a, "google-site-verification=Ak5ZcW5AEHnzUw1fFirUO-fuyHV4DEn8YejlEAGDoGY")
+txt("nixmatic", "google-site-verification=Ak5ZcW5AEHnzUw1fFirUO-fuyHV4DEn8YejlEAGDoGY")
