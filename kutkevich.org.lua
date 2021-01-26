@@ -5,7 +5,7 @@
 -- _a = "kutkevich.org"
 
 -- FIXME: remove me.
-txt("_github-challenge-nixmatic.nixmatic.com", "abb87f34e6")
+txt(_a, "google-site-verification=Ak5ZcW5AEHnzUw1fFirUO-fuyHV4DEn8YejlEAGDoGY")
 
 -- A records <http://www.luadns.com/help.html#a-record>
 -- @name  = relative name
