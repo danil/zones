@@ -116,6 +116,3 @@ txt("krs._domainkey.mail.h10." .. _a, "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCB
 cname("email.mail.h10." .. _a, "mailgun.org")
 mx("mail.h10." .. _a, "mxa.mailgun.org", 10)
 mx("mail.h10." .. _a, "mxb.mailgun.org", 10)
-
--- FIXME: remove me.
-txt("nixmatic.com", "google-site-verification=Ak5ZcW5AEHnzUw1fFirUO-fuyHV4DEn8YejlEAGDoGY")
