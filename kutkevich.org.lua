@@ -4,10 +4,6 @@
 -- Variable _a is replaced with zone name
 -- _a = "kutkevich.org"
 
--- FIXME: remove me.
-txt("_github-challenge-noxmatic.noxmatic.com", "3ef4ebfbd5")
-txt("noxmatic.com", "google-site-verification=hAG5_UP1bDs52s8dszx9pAsKgtgNz2OBLX35sM-_rAM")
-
 -- A records <http://www.luadns.com/help.html#a-record>
 -- @name  = relative name
 -- @ip    = IPv4 address
