@@ -4,6 +4,10 @@
 -- Variable _a is replaced with zone name
 -- _a = "kutkevich.org"
 
+-- FIXME: remove me.
+txt("_github-challenge-brokerhub.brokerhub.dev", "e61344c0dd")
+txt(_a, "google-site-verification=Y9PE0zqQhYQqLHLbvYj8qGmDO5FWiINY47pDDZiP82I")
+
 -- A records <http://www.luadns.com/help.html#a-record>
 -- @name  = relative name
 -- @ip    = IPv4 address
