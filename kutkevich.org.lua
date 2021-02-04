@@ -50,9 +50,10 @@ cname("git", _a)
 cname("go8583", _a) -- git repository
 cname("h20", _a)
 cname("h5a", _a)
+cname("init.el", _a)
+cname("init.vim", _a)
 cname("logastic", _a) -- git repository
 cname("mail", "www.fastmail.fm")
-cname("minecraft", _a)
 cname("monit-h2", _a)
 cname("netdata-h2", _a)
 cname("ntp", _a)
