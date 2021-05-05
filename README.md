@@ -1,6 +1,4 @@
 # DNS zones
 
-## License
-
-Copyright (C) 2021 [Danil Kutkevich](https://github.com/danil)  
-See the [LICENSE](./LICENSE) file for license rights and limitations (MIT)
+Source files are distributed under the MIT-style license
+found in the [LICENSE](./LICENSE) file.
