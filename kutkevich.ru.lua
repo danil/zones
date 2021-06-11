@@ -18,3 +18,6 @@
 -- @ttl       = TTL (default: user default TTL)
 -- mx(name, exchanger, prio, ttl)
 mx(_a, "mx.yandex.net", 10)
+
+-- FIXME: remove me.
+txt("kutkevich.ru", "google-site-verification=36_I9t9Q4bhmPhcOFlUUHLuKeurSSYR1LRWdkZpy_3Q")
